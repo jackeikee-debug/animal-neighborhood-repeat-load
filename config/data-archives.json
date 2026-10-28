@@ -29,5 +29,11 @@
       "bytes": 3068792,
       "sha256": "476f0339ee51a5af9647d8bd784983430d496a31462351e8b606fd0848029c5d"
     }
-  ]
+  ],
+  "additional_supplement": {
+    "name": "research-reproducibility-supplement-20261028.zip",
+    "scope": "primary discovery input/results, complete accepted native HOG/gene tree/aggregate orthology outputs, pinned repository and current manuscript",
+    "identity": "root MANIFEST.json and Zenodo file checksum",
+    "access": "restricted unpublished draft"
+  }
 }

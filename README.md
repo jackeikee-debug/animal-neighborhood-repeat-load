@@ -10,6 +10,7 @@ Research code for repeat-load correspondence around homologous animal genes. The
 | HOG-to-member bridge, annotation indexing, complete gene/all-exon evidence and genome callability | analysis/coordinates/ |
 | Frozen membership/weights and A50/K50/A25 coefficients/deletions | analysis/effects/backend.py, original_caller.py, json_safe.py, effect_inputs.py |
 | Own/common mapping and crossed definition/scale sensitivity | analysis/effects/cross_scale_inputs.py, compute_effect_packet_v2.py, contract_checks.py |
+| Selection comparison, Unknown weighting, nested coverage, gene composition and summary/cache adapters | analysis/summaries/ |
 | Dependence scores, interval information gates and layer omission | analysis/effects/joint_scores_v2.py |
 | True-bp physical backgrounds | analysis/spatial/ |
 | Controlled-distance supplement | analysis/location/ |
@@ -17,7 +18,7 @@ Research code for repeat-load correspondence around homologous animal genes. The
 | Offline evidence checking | scripts/verify_evidence.py |
 | Synthetic diagnostic | Root synthetic_zero.py and calibration-frozen-spec.md |
 
-CODE_PROVENANCE.json records original hashes and path-only substitutions. All 54 newly added Python files preserve source function/class ASTs. Historical dispatchers, credentials and unrelated research are excluded.
+CODE_PROVENANCE.json records original hashes and path-only substitutions. All 70 exported research implementation files preserve source function/class ASTs. Historical dispatchers, credentials and unrelated research are excluded.
 
 ## Start here
 
@@ -31,3 +32,7 @@ All NA states and literal reasons remain. OG0000725 remains unresolved, with 154
 
 Author/affiliation details are in the manuscript. A project-code license has not yet been selected; this release does not assert a new redistribution license. External tools retain their upstream licenses.
 
+
+## Additional reproducibility deposit
+
+The supplementary deposition audit adds the original 1,896-group main input and saved outputs, complete accepted native HOG tables, original/resolved native gene trees, 54 aggregate orthology files, a pinned repository snapshot and the current manuscript. See docs/DEPOSITION_COMPLETENESS.md. Existing data archives and exceptions remain retained.

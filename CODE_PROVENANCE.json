@@ -595,6 +595,182 @@
         "byte-identical"
       ],
       "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/selection_7495_join.py",
+      "bytes": 3596,
+      "sha256": "8b8f767c730849b65971a34caddfcec9451331f6cd20cd809d6a1fe58bfdd95a",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/selection_7495_join.py",
+      "source_sha256": "8b8f767c730849b65971a34caddfcec9451331f6cd20cd809d6a1fe58bfdd95a",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/selection_7495_join_v2.py",
+      "bytes": 3586,
+      "sha256": "47f481126f7948a82e4db73958f7e3ede259c07e66d863c5ff4ba9c8d4eb19c8",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/selection_7495_join_v2.py",
+      "source_sha256": "47f481126f7948a82e4db73958f7e3ede259c07e66d863c5ff4ba9c8d4eb19c8",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/selection_properties.py",
+      "bytes": 5323,
+      "sha256": "3a1e1ab0e7574d3114b0b2313aba4bbb979d46281918733d3f1aff4ce486f5fa",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/selection_properties.py",
+      "source_sha256": "3a1e1ab0e7574d3114b0b2313aba4bbb979d46281918733d3f1aff4ce486f5fa",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/provenance54.py",
+      "bytes": 3892,
+      "sha256": "4cbc7a76477b917a8afb09640f821104032694e7d1c831682859b9573505638f",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/provenance54.py",
+      "source_sha256": "4cbc7a76477b917a8afb09640f821104032694e7d1c831682859b9573505638f",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/project_unknown_weights_once.py",
+      "bytes": 2409,
+      "sha256": "cc2ba9905cde8850120fd12981c3b2aa50d46b9c14a91ef253125c120bfba818",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/project_unknown_weights_once.py",
+      "source_sha256": "cc2ba9905cde8850120fd12981c3b2aa50d46b9c14a91ef253125c120bfba818",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/summarize_load_nested_once.py",
+      "bytes": 3157,
+      "sha256": "9b788dbc5d06ca81ecff873aaf0755bf29c67ed91a220827852327413693c71d",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/summarize_load_nested_once.py",
+      "source_sha256": "9b788dbc5d06ca81ecff873aaf0755bf29c67ed91a220827852327413693c71d",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/build_U0_dependency_once.py",
+      "bytes": 3977,
+      "sha256": "cb9a44ce9f7433a6ff45afb1a2c12005558e4e0ecb73c60717b3dccce52725f3",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/build_U0_dependency_once.py",
+      "source_sha256": "cb9a44ce9f7433a6ff45afb1a2c12005558e4e0ecb73c60717b3dccce52725f3",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/project_U1_saved_coefficients_once.py",
+      "bytes": 4540,
+      "sha256": "8946f3469109a771aea3b522fd0fcc6decc57e656ee905551937f9ff0bab8433",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/project_U1_saved_coefficients_once.py",
+      "source_sha256": "8946f3469109a771aea3b522fd0fcc6decc57e656ee905551937f9ff0bab8433",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/build_U2_joint_and_U3_descriptive_once.py",
+      "bytes": 2461,
+      "sha256": "beeafff1d614bbe767698c416d414bf971b9b53dc5fdf61c865e5800116b5fac",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/build_U2_joint_and_U3_descriptive_once.py",
+      "source_sha256": "beeafff1d614bbe767698c416d414bf971b9b53dc5fdf61c865e5800116b5fac",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/prepare_clade_common_once.py",
+      "bytes": 6801,
+      "sha256": "432268fb179e79bd4eefe657021c2dc4235e0ed2b6348fc46abba332581f9e22",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/prepare_clade_common_once.py",
+      "source_sha256": "432268fb179e79bd4eefe657021c2dc4235e0ed2b6348fc46abba332581f9e22",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/collect_clade_tables_once.py",
+      "bytes": 4592,
+      "sha256": "68f6fa036b482fb93a96f9fda4134734bcef2931fbd35acae1af8dec7174729a",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/collect_clade_tables_once.py",
+      "source_sha256": "68f6fa036b482fb93a96f9fda4134734bcef2931fbd35acae1af8dec7174729a",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/collect_cross_scale_tables.py",
+      "bytes": 9408,
+      "sha256": "c9327608e1e5f75841da4a7a33f032a38f23d492fc7708b3175b3664042f815d",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/collect_cross_scale_tables.py",
+      "source_sha256": "c9327608e1e5f75841da4a7a33f032a38f23d492fc7708b3175b3664042f815d",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/collect_R23_all_species_once.py",
+      "bytes": 6800,
+      "sha256": "d3662a4ef9d130e62014fc7c8b7403bb75f7f38d9e92e3e9eebe25d8ed2c1f56",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/collect_R23_all_species_once.py",
+      "source_sha256": "d3662a4ef9d130e62014fc7c8b7403bb75f7f38d9e92e3e9eebe25d8ed2c1f56",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/project_gene_composition_pilot_v2.py",
+      "bytes": 6998,
+      "sha256": "00b60bf6b3a644c4291bf64928b92575d5698f3e61e777ff5575831289867a6d",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/project_gene_composition_pilot_v2.py",
+      "source_sha256": "00b60bf6b3a644c4291bf64928b92575d5698f3e61e777ff5575831289867a6d",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/compact_phase2_cache.py",
+      "bytes": 9901,
+      "sha256": "df9fa29debd30f0ec90422e04bb7a284bd7df9db5324fc18acfa6f963bce0b91",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/compact_phase2_cache.py",
+      "source_sha256": "df9fa29debd30f0ec90422e04bb7a284bd7df9db5324fc18acfa6f963bce0b91",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
+    },
+    {
+      "path": "analysis/summaries/compact_phase2_cache_v2.py",
+      "bytes": 9961,
+      "sha256": "0416b8d4f6ab9e161a075e908e8477e9e716c0b9cb795a652c45b166aeee8678",
+      "source": "expanded-study/review-round2-phase2-execution-20261027-v1/code/compact_phase2_cache_v2.py",
+      "source_sha256": "0416b8d4f6ab9e161a075e908e8477e9e716c0b9cb795a652c45b166aeee8678",
+      "transformation": [
+        "byte-identical"
+      ],
+      "function_and_class_AST_unchanged": true
     }
   ],
   "algorithm_changes_intended": 0,

@@ -61,3 +61,7 @@ Cloning this repository alone does not create those views. Archive manifests ret
 
 v12 figure functions consume accepted compact dictionaries and return SVG. figure3_svg renders the frozen tree order without inferring a topology. draw_v12_figures_once additionally expects source descriptors and explicit code bindings. Figure6/7 consume saved accepted statistics. No figures were regenerated during upload.
 
+
+## Remaining summary adapters
+
+analysis/summaries contains selection/eligibility comparisons, Unknown link-base weighting, nested-count summaries, original dependence-block construction, saved-coefficient projection, fixed layer/common-member preparation, gene-context composition and result collectors. These are the retained implementations, not reexecuted results. Add analysis/summaries to PYTHONPATH. Their build(cfg, out, check, events) entrypoints expect the original named source/cache/binding contracts from a separately prepared view; ANRL_PHASE2_ROOT names that view for historical wrappers. Full original source/QC data remain identified external inputs. Do not rebuild accepted caches, select new members or replace NA just to obtain a fit.
