@@ -1,0 +1,33 @@
+{
+  "access": "restricted unpublished Zenodo draft",
+  "record_id": 23723115,
+  "draft_url": "https://zenodo.org/uploads/23723115",
+  "public_DOI": null,
+  "archives": [
+    {
+      "name": "v12-effective-inputs-and-evidence.zip",
+      "bytes": 99275614,
+      "sha256": "964d8be17d6d17d717c670db0fff58a41ae7a7470b1a2935a23b3251045f93d0"
+    },
+    {
+      "name": "v13-physical-backgrounds-NA-and-revision.zip",
+      "bytes": 35672841,
+      "sha256": "f9fba892159842c906cf928dbff3818f2e0ce1517318be8367e165aff87eabf0"
+    },
+    {
+      "name": "v14-location-specificity-and-revision-evidence.zip",
+      "bytes": 2955954,
+      "sha256": "662b9a6f0815950619d5475c81d52773ac485443ca019a8de608e714c346feeb"
+    },
+    {
+      "name": "v15-publication-closure-materials.zip",
+      "bytes": 2548938,
+      "sha256": "4c01da55335da82686c732afdf27b55e8cf7dfa174ecc0f91099c6efef129320"
+    },
+    {
+      "name": "v16-synthetic-calibration-and-manuscript.zip",
+      "bytes": 3068792,
+      "sha256": "476f0339ee51a5af9647d8bd784983430d496a31462351e8b606fd0848029c5d"
+    }
+  ]
+}

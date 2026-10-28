@@ -1,0 +1,55 @@
+{
+  "schema": "PUBLICATION_EVIDENCE_RELATIVE_ARCHIVES_V1",
+  "archives": [
+    {
+      "label": "v12",
+      "archive": "v12-effective-inputs-and-evidence.zip",
+      "archive_bytes": 99275614,
+      "manifest_sha256": "ed05dff73b59e6adfadc08231b76cd78ef19f665d0e681d55f456a6bd7e5eae1",
+      "manifest_bytes": 167171,
+      "historical_verified_archive_sha256": "964d8be17d6d17d717c670db0fff58a41ae7a7470b1a2935a23b3251045f93d0",
+      "requires": [],
+      "required_entries": [
+        "summaries/U2-joint-working-ranges-and-U3-means-first/all-original35-and-P31-joint-block-working-ranges.json",
+        "summaries/cross-scale-report-tables-first/fixed45-descriptive-paired-contrasts.tsv",
+        "summaries/original/Expansion-Table-E4-species-profiles.tsv",
+        "summaries/original/Supplement-NA-nine-anchor-provenance.tsv"
+      ]
+    },
+    {
+      "label": "v13",
+      "archive": "v13-physical-backgrounds-NA-and-revision.zip",
+      "archive_bytes": 35672841,
+      "manifest_sha256": "eca670e8d19205775213f447bd718c4def26cfe89eb568713feaa36c0bfe31eb",
+      "manifest_bytes": 84807,
+      "historical_verified_archive_sha256": "f9fba892159842c906cf928dbff3818f2e0ce1517318be8367e165aff87eabf0",
+      "requires": [
+        "v12"
+      ],
+      "required_entries": [
+        "round3/physical-output-complete-QA-first/accepted-two-mode-physical-backgrounds.json"
+      ]
+    },
+    {
+      "label": "v14",
+      "archive": "v14-location-specificity-and-revision-evidence.zip",
+      "archive_bytes": 2955954,
+      "manifest_sha256": "ec5b86c797a19299ff4ca018dc6218a843b67f12fe95f42c1afdee857f8139e7",
+      "manifest_bytes": 65805,
+      "historical_verified_archive_sha256": "662b9a6f0815950619d5475c81d52773ac485443ca019a8de608e714c346feeb",
+      "requires": [
+        "v13"
+      ],
+      "required_entries": [
+        "round4/controlled-output-QA-first/accepted-controlled-distance-summary.json"
+      ]
+    }
+  ],
+  "access_status": {
+    "current_submission_access": "PENDING_AUTHOR_REPOSITORY_OR_REVIEW_ACCESS",
+    "packaged_prior_outputs": "These3localarchives areavailable oncurrenthost; publicoffhost accessnotestablished",
+    "controlled_upstream": "Genome/RepeatMasker/GFF,fullphylogeny/HOGassets,numericalruntime remain separatelyidentifieddependencies; notautomaticallyretrieved",
+    "historical_unknown": "Someoriginaltreeparametersanddeploymentbuildidentityunavailable",
+    "validation": "Manifestmode checksidentity/directory/requiredlocators only; previouscontentintegrity acceptance retained; no numericrerun"
+  }
+}

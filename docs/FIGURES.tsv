@@ -1,0 +1,9 @@
+figure	code	input	operation
+1	figures/v12_summary_figures_compact_v3.py:figure1	Accepted selection/denominator dictionaries	Pure SVG
+2	figures/discovery_make_figures_v2.py	Saved Stage-B summaries	Saved-output plot
+3	figures/figure3_svg.py	Frozen tree children/order and accepted effect/NA/deletion values	Integrated evolutionary SVG; no tree inference
+4	figures/v12_summary_figures_compact_v3.py:figure4	Accepted own/common, cross-scale and score summaries	Pure SVG
+5	figures/v12_case_figure_v2.py	Five fixed species and source-bound locus values	Pure SVG; separate full-J coefficients
+6	figures/plot_accepted_physical_backgrounds.py	Accepted v13 and original background values	No new draws
+7	figures/plot_location_saved_results.py	Accepted v14 values and admission geometry	Preserves geometric NA
+

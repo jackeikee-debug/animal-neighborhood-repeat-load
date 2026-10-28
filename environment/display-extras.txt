@@ -1,0 +1,6 @@
+# Additional display dependencies; historical exact versions unretained
+pandas
+matplotlib
+pypdf
+reportlab
+pypdfium2

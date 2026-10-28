@@ -1,0 +1,9 @@
+{
+  "ANRL_PROJECT_ROOT": "/path/to/separate-original-evidence-view",
+  "ANRL_ORIGINAL_STATS_ROOT": "/path/to/separate-original-statistics-view",
+  "ANRL_R3_ROOT": "/path/to/rebound-round3-view",
+  "ANRL_R4_ROOT": "/path/to/rebound-round3-view/round4-location-specificity-20261028-v1",
+  "fresh_output_root": "/path/to/new-reproduction-only-output",
+  "allow_original_project_writes": false,
+  "zero_or_missing_response_imputation": false
+}

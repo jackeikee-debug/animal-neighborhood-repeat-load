@@ -1,0 +1,14 @@
+component	implementation	input	output
+discovery	analysis/discovery/run_comparison.py	Accepted Stage-A two-scale 1896 table and execution-scope identity	Main/S1 adjustments, saved values, shifts, summaries and chromosome influence
+HOG bridge	analysis/coordinates/bridge_adapter.py	Native HOGs/pairs/gene trees, exact IDs and coordinates	Supported/ambiguous/unresolved/conflicting membership
+annotation QC	analysis/coordinates/annotation_index.py;index_protocol.py;accepted_manifest_receiver.py	Original annotation stream and source-bound manifest	Complete gene bounds/all-exon index
+genome QC	analysis/coordinates/genome.py	Same-assembly Genome stream and target plan	Callability/nonACGT/chromosome states
+row bridge	analysis/coordinates/fact_view_adapter.py;canonical_view.py;actual_all_format_rows_v3.py	Accepted catalogs and source IDs	Frozen source-bound preoutcome rows
+effects	analysis/effects/backend.py;original_caller.py	v12 frozen panels, weights, signature and typed observations	A50/K50/A25 coefficients and deletion states
+mapping sensitivity	analysis/effects/effect_inputs.py;compute_effect_packet_v2.py	Five native cases, own/common members and prepared packets	Unique numerical returns and aliases with NA retained
+cross-scale	analysis/effects/cross_scale_inputs.py	Fixed definition/member/structure/response recipes	Off-diagonal and fixed-member scale inputs
+dependence	analysis/effects/joint_scores_v2.py	Saved coefficients, blocks and policy	Scores, descriptive means and interval NA states
+physical-bp	analysis/spatial/	v13 geometry, frozen offsets, accepted tracks and design	1998 conditional draws and integer counts
+controlled distance	analysis/location/	v14 fixed geometry and accepted v13 evidence	8 distinct evaluations and geometric NA labels
+evidence	 scripts/verify_evidence.py	Catalog and four ZIPs	Manifest-only report with numerical_execution=0
+

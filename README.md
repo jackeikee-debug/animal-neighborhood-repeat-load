@@ -1,22 +1,33 @@
 # Animal neighborhood repeat load
 
-Code and reproducibility materials for repeat-load correspondence in homologous animal gene neighborhoods, including the three-hemichordate discovery panel and the 54-species orthology framework.
+Research code for repeat-load correspondence around homologous animal genes. The original three-hemichordate comparison and conditional 54-species extension are represented by the retained implementations below. Code is separated from versioned data and evidence archives.
 
-Author and correspondence information are provided in the manuscript. Licensing is pending author confirmation.
-## Current scientific scope
+## Implementation coverage
 
-The accepted manuscript reports recurring, heterogeneous correspondence with annotation, scale and membership dependence. The main expanded comparison retains34 finite estimates among45 candidates and all11 NA states. FullS35 and working intervals remain unavailable under their recorded gates. OG0000725 remains an unresolved154-gene/41-species exception.
+| Component | Code |
+| --- | --- |
+| Original discovery comparison, structural adjustment, cyclic backgrounds and chromosome influence | analysis/discovery/run_comparison.py |
+| HOG-to-member bridge, annotation indexing, complete gene/all-exon evidence and genome callability | analysis/coordinates/ |
+| Frozen membership/weights and A50/K50/A25 coefficients/deletions | analysis/effects/backend.py, original_caller.py, json_safe.py, effect_inputs.py |
+| Own/common mapping and crossed definition/scale sensitivity | analysis/effects/cross_scale_inputs.py, compute_effect_packet_v2.py, contract_checks.py |
+| Dependence scores, interval information gates and layer omission | analysis/effects/joint_scores_v2.py |
+| True-bp physical backgrounds | analysis/spatial/ |
+| Controlled-distance supplement | analysis/location/ |
+| Integrated evolutionary composite and other displays | figures/ |
+| Offline evidence checking | scripts/verify_evidence.py |
+| Synthetic diagnostic | Root synthetic_zero.py and calibration-frozen-spec.md |
 
-## New synthetic calibration
+CODE_PROVENANCE.json records original hashes and path-only substitutions. All 54 newly added Python files preserve source function/class ASTs. Historical dispatchers, credentials and unrelated research are excluded.
 
-Three prespecified mechanisms,100 outer replicates each,99 inner shifts. Rejection counts at.05/.10: S1 cyclic-group benchmark7/14, S2 nonstationary-variance stress6/11, S3 restricted non-group shifts2/10, each out of100. All six binomial95% intervals include nominal levels. None met the prespecified lower-bound inflation criterion. This finite diagnostic does not establish equivalence or calibrate real-data.001 tails. Full specification and S7 are included.
+## Start here
 
-The numerical functions in physical_shift.py and physical_shift_root_numeric_gates.py are unchanged from the accepted implementation. The exported synthetic runner changes only output/import paths; every function AST matches the executed source. Historical stage guards, runtime binaries and real-data pipelines are separately documented dependencies. This compact repository is not a claim of standalone full numerical reproduction.
+Read [the execution guide](docs/REPRODUCTION.md), [input/output map](docs/INPUT_OUTPUT.tsv), [figure map](docs/FIGURES.tsv) and [upstream scope](docs/UPSTREAM_AND_SCOPE.md). The [archive catalog](config/data-archives.json) identifies versioned data. Zenodo is currently a restricted, unpublished draft; no public DOI or anonymous access is claimed.
 
-## Run a new independent synthetic namespace
+Root requirements belong to the synthetic diagnostic. Original expanded effects use a different retained runtime identity; see environment/. This upload checks code identity, syntax, import closure and documentation. It does not rerun scientific analyses or certify complete cross-environment numerical reproduction.
 
-Use a Python environment with NumPy and SciPy. Set PFLAVA_SYNTHETIC_ROOT to a new empty absolute output directory; create its replicate-claims, pilot and remainder subdirectories. From pilot run python /absolute/path/to/synthetic_zero.py pilot. From remainder run the same script with remainder. Each formal seed0..99 is exclusive per namespace; existing claim or result files stop a repeated invocation. The original project guard and its measured256MiB/1core budget are not automatically supplied by this standalone script.
+## Scope and availability
 
-## Evidence archive
+All NA states and literal reasons remain. OG0000725 remains unresolved, with 154 genes in 41 species. Source-unavailable species stay in their original cohorts. The historical remote-job UNKNOWN remains recorded outside this repository and is not resolved by uploading code.
 
-Versioned v12 through v15 result archives and the new v16 diagnostic are being deposited in the restricted Zenodo draft https://zenodo.org/deposit/23723115. Upload receipts, accession and file checksums will be supplied after verification. Third-party Genome/GFF/RepeatMasker sources and full upstream assets remain identified external dependencies. No credentials are included. License selection is pending; no third-party data are relicensed by this repository.
+Author/affiliation details are in the manuscript. A project-code license has not yet been selected; this release does not assert a new redistribution license. External tools retain their upstream licenses.
+

@@ -1,0 +1,11 @@
+{
+  "status": "TYPED_NA_NO_NUMERIC_CALL",
+  "reason": "EXAMPLE_SOURCE_MEASUREMENT_UNAVAILABLE",
+  "active_NA_ids": [
+    "example_anchor"
+  ],
+  "numeric_fingerprint": null,
+  "model_calls": 0,
+  "biological_absence_claimed": false
+}
+
