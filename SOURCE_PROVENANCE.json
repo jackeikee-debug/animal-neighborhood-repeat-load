@@ -1,0 +1,9 @@
+{
+  "executed_synthetic_source_sha256": "9923a0e11b31230855d2a05fdcaee845a33dd7a92d4fd284a2eb550f08f26fdb",
+  "adapter_change": "Output root from PFLAVA_SYNTHETIC_ROOT and import path relative to this repository; all function ASTs unchanged.",
+  "numerical_sources": {
+    "physical_shift.py": "1f6e5d13ee3f295faec8438c8ba525f3648c2dfdd3e615c30a8b63e36e213099",
+    "physical_shift_root_numeric_gates.py": "8df23c369c00471ef40e5c4182e1d455d33553e81ed7c251ed11eb5f9215b54f"
+  },
+  "full_upstream_pipeline": "identified in immutable versioned Zenodo evidence archives; not claimed standalone here"
+}
