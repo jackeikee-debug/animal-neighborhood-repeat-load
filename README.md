@@ -2,8 +2,7 @@
 
 Code and reproducibility materials for repeat-load correspondence in homologous animal gene neighborhoods, including the three-hemichordate discovery panel and the 54-species orthology framework.
 
-Author supplied contact: 李斯, 河北工业大学化工学院, jackeikee@aliyun.com. Full contributions and licensing are pending author confirmation.
-
+Author and correspondence information are provided in the manuscript. Licensing is pending author confirmation.
 ## Current scientific scope
 
 The accepted manuscript reports recurring, heterogeneous correspondence with annotation, scale and membership dependence. The main expanded comparison retains34 finite estimates among45 candidates and all11 NA states. FullS35 and working intervals remain unavailable under their recorded gates. OG0000725 remains an unresolved154-gene/41-species exception.
